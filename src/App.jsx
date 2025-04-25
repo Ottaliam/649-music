@@ -1,15 +1,15 @@
 import Introduction from "./sections/Introduction.jsx";
 import Title from "./sections/Title.jsx";
-import YearByYearStars from "./sections/YearByYearStars.jsx";
-import EnduringGenres from "./sections/EnduringGenres.jsx";
+import Section2 from "./sections/Section2.jsx";
+import Section3 from "./sections/Section3.jsx";
 
 const App = () => {
   return (
     <>
       <Title />
       <Introduction />
-      <YearByYearStars />
-      <EnduringGenres />
+      <Section2 />
+      <Section3 />
     </>
   );
 }

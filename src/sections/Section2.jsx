@@ -1,6 +1,6 @@
 import {Box, Typography} from "@mui/material";
 
-const YearByYearStars = () => {
+const Section2 = () => {
   return (
     <Box component="section" sx={{ maxWidth: 800, mx: 'auto', py: 6, px: 2 }}>
       <Typography variant="h4" component="h2" gutterBottom>
@@ -59,4 +59,4 @@ const YearByYearStars = () => {
   );
 }
 
-export default YearByYearStars;
+export default Section2;

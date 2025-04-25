@@ -1,6 +1,6 @@
 import {Box, Typography} from "@mui/material";
 
-const EnduringGenres = () => {
+const Section3 = () => {
   return (
     <Box component="section" sx={{ maxWidth: 800, mx: 'auto', py: 6, px: 2 }}>
       <Typography variant="h4" component="h2" gutterBottom>
@@ -47,4 +47,4 @@ const EnduringGenres = () => {
   );
 }
 
-export default EnduringGenres;
+export default Section3;

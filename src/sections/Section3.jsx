@@ -4,7 +4,7 @@ const Section3 = () => {
   return (
     <Box component="section" sx={{ maxWidth: 800, mx: 'auto', py: 6, px: 2 }}>
       <Typography variant="h4" component="h2" gutterBottom>
-        Part 3 – Enduring Genres
+        Enduring Genres
       </Typography>
       <Typography variant="body1">
         Popularity is one thing. But what about genres that last?

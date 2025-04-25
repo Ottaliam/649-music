@@ -4,6 +4,7 @@ import Section2 from "./sections/Section2.jsx";
 import Section3 from "./sections/Section3.jsx";
 import Section4 from "./sections/Section4.jsx";
 import Section5 from "./sections/Section5.jsx";
+import Section6 from "./sections/Section6.jsx";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Section3 />
       <Section4 />
       <Section5 />
+      <Section6 />
     </>
   );
 }

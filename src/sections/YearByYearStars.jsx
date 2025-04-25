@@ -9,7 +9,11 @@ const YearByYearStars = () => {
       <Typography variant="body1">
         To see which genres dominate at any given moment, we built an interactive bar chart showing the top 10 genres by average popularity each year.
       </Typography>
-      <Typography variant="body1">
+      <Typography
+        variant="caption"
+        color="text.secondary"
+        sx={{ fontStyle: 'italic', mt: 2 }}
+      >
         Use the slider to jump to a year and see which styles ruled.
       </Typography>
 

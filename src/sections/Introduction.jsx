@@ -3,9 +3,6 @@ import {Box, Typography} from "@mui/material";
 const Introduction = () => {
   return (
     <Box component="section" sx={{ maxWidth: 800, mx: 'auto', py: 6, px: 2 }}>
-      <Typography variant="h4" component="h1" gutterBottom>
-        Introduction
-      </Typography>
       <Typography variant="body1">
         Spotify is home to more than 100,000 genres, from nostalgic classics to obscure subcultures. But what separates a momentary vibe from a long-term trend?
       </Typography>

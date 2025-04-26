@@ -3,9 +3,6 @@ import {Box, Typography} from "@mui/material";
 const Section7 = () => {
   return (
     <Box component="section" sx={{ maxWidth: 800, mx: 'auto', py: 6, px: 2 }}>
-      <Typography variant="h4" component="h2" gutterBottom>
-        Wrapping Up
-      </Typography>
       <Typography variant="body1">
         So what makes a genre a hit?
       </Typography>

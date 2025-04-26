@@ -24,7 +24,7 @@ const Chart = ({ chartName }) => {
       className={styles.sliderContainer}
       sx={{
         width: '100%',
-        bgcolor: 'grey.200',
+        bgcolor: 'white.200',
         borderRadius: 2,
         display: 'flex',
         flexDirection: 'column',

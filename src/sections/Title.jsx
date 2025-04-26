@@ -1,6 +1,6 @@
-import {Box, Typography} from "@mui/material";
+import {Box, Link, Typography} from "@mui/material";
 
-const Title = () => {
+const Title = ({ plainView, togglePlainView }) => {
   return (
     <Box
       component="header"
@@ -17,6 +17,23 @@ const Title = () => {
       </Typography>
       <Typography variant="subtitle1" color="text.secondary">
         Exploring Popularity, Quantity, and Musical Features on Spotify
+      </Typography>
+      <Typography variant="body2" color="text.secondary">
+        {plainView ? (
+          <>
+            You're currently viewing the plain layout of the page.{' '}
+            <Link href="#" onClick={togglePlainView}>
+              Click here to switch to the full experience
+            </Link>.
+          </>
+        ) : (
+          <>
+            This page is best viewed on larger screens. If you're experiencing display issues,{' '}
+            <Link href="#" onClick={togglePlainView}>
+              click here to switch to a plain view
+            </Link>.
+          </>
+        )}
       </Typography>
     </Box>
   );

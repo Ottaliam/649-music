@@ -12,10 +12,16 @@ import {Scrollama, Step} from "react-scrollama";
 import Section6_2 from "./sections/Section6_2.jsx";
 
 const App = () => {
+  const [plainView, setPlainView] = useState(JSON.parse(localStorage.getItem('plainView')) || false);
   const [currentStepIndex, setCurrentStepIndex] = useState(0);
 
+  const togglePlainView = () => {
+    setPlainView(!plainView);
+    localStorage.setItem('plainView', JSON.stringify(!plainView));
+  }
+
   const sections = [
-    <Title />,
+    <Title plainView={plainView} togglePlainView={togglePlainView} />,
     <Introduction />,
     <Section2 />,
     <Section3 />,
@@ -25,6 +31,10 @@ const App = () => {
     <Section6_2 />,
     <Section7 />
   ];
+
+  if (plainView) {
+    return sections;
+  }
 
   return (
     // sections

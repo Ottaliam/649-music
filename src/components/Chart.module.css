@@ -1,0 +1,36 @@
+/* ChartLoader.module.css */
+
+.sliderContainer input[type="range"] {
+    width: 100%;
+    height: 6px;
+    border-radius: 5px;
+    background: #1976d2; /* 🔵 full blue background */
+    outline: none;
+    transition: background 450ms ease-in;
+    appearance: none;
+}
+
+.sliderContainer input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    background: white;
+    border: 2px solid #1976d2;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -6px; /* center thumb */
+}
+
+.sliderContainer input[type="range"]::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    background: white;
+    border: 2px solid #1976d2;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Optional focus effect */
+.sliderContainer input[type="range"]:focus {
+    background: #1565c0; /* Slightly darker blue on focus */
+}

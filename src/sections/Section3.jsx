@@ -1,4 +1,5 @@
 import {Box, Typography} from "@mui/material";
+import Chart from "../components/Chart.jsx";
 
 const Section3 = () => {
   return (
@@ -13,23 +14,7 @@ const Section3 = () => {
         This scatterplot lets you explore quantity vs. longevity. A few surprises emerged:
       </Typography>
 
-      {/* Placeholder for the upcoming interactive visualization */}
-      <Box
-        sx={{
-          width: '100%',
-          height: 400,
-          bgcolor: 'grey.200',
-          borderRadius: 2,
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          my: 4,
-        }}
-      >
-        <Typography variant="subtitle1" color="text.secondary">
-          [Interactive Scatterplot Placeholder]
-        </Typography>
-      </Box>
+      <Chart chartName="enduring_genre" />
 
       <Box component="ul" sx={{ pl: 3 }}>
         <li>

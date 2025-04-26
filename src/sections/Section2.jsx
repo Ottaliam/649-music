@@ -1,4 +1,5 @@
 import {Box, Typography} from "@mui/material";
+import Chart from "../components/Chart.jsx";
 
 const Section2 = () => {
   return (
@@ -17,23 +18,7 @@ const Section2 = () => {
         Use the slider to jump to a year and see which styles ruled.
       </Typography>
 
-      {/* Placeholder for the upcoming interactive visualization */}
-      <Box
-        sx={{
-          width: '100%',
-          height: 400,
-          bgcolor: 'grey.200',
-          borderRadius: 2,
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          my: 4,
-        }}
-      >
-        <Typography variant="subtitle1" color="text.secondary">
-          [Interactive Visualization Placeholder]
-        </Typography>
-      </Box>
+      <Chart chartName="top10_genre" />
 
       <Typography variant="body1">
         Some highlights:

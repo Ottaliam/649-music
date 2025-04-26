@@ -8,7 +8,7 @@ import {
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Chart from "../components/Chart.jsx";
 
-const Section6 = () => {
+const Section6_1 = () => {
   const audioFeatures = [
     {
       name: 'Danceability',
@@ -71,37 +71,8 @@ const Section6 = () => {
           </AccordionDetails>
         </Accordion>
       ))}
-
-      <Chart chartName="features" />
-
-      <Typography variant="body1">
-        We expected distinct sound signatures—but it turns out, popular genres don’t follow a strict formula. They vary in style, mood, and texture.
-      </Typography>
-      <Typography variant="body1">
-        Still, we noticed:
-      </Typography>
-      <Box component="ul" sx={{ pl: 3 }}>
-        <li>
-          <Typography variant="body1">
-            Popular genres tend to be more danceable.
-          </Typography>
-        </li>
-        <li>
-          <Typography variant="body1">
-            They’re slightly happier (higher valence).
-          </Typography>
-        </li>
-        <li>
-          <Typography variant="body1">
-            And often less acoustic, leaning toward digital production.
-          </Typography>
-        </li>
-      </Box>
-      <Typography variant="body1">
-        Nothing definitive—but maybe popularity has less to do with what a song is, and more about when and why people listen.
-      </Typography>
     </Box>
   );
 }
 
-export default Section6;
+export default Section6_1;
